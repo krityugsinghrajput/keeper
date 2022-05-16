@@ -1,0 +1,30 @@
+/**
+This stylesheet includes basic elements like buttons, containers, fonts, extra styling of the keeper web app
+please refer to developer before changing the contents of the web app yourself. Any wrong edits may break the web app.
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,700;1,400&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-color: #32363F;
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+
+.container {
+    background-color: #32363F;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
